@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +19,46 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Calculator++" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OaM-ea-bfs">
+                                <color key="textColor" red="0.90359479190000003" green="0.67476427559999996" blue="0.061164133250000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="32"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="  Copyright (c) 2016 Viachaslau Pashaliuk. All rights reserved." textAlignment="center" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="L1k-1k-oSB">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="L1k-1k-oSB" secondAttribute="height" multiplier="25:2" constant="12.5" id="ktY-0g-9uf"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calculator" translatesAutoresizingMaskIntoConstraints="NO" id="rho-Xz-mXo">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rho-Xz-mXo" secondAttribute="height" multiplier="127:128" id="mhb-OJ-cc3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.5" green="0.71764705880000002" blue="0.91531643910000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rho-Xz-mXo" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="77" id="PaM-KT-jHS"/>
+                            <constraint firstItem="OaM-ea-bfs" firstAttribute="top" secondItem="rho-Xz-mXo" secondAttribute="bottom" constant="68" id="X8a-Mb-K6U"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OaM-ea-bfs" secondAttribute="trailing" constant="64" id="dQK-sN-exp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rho-Xz-mXo" secondAttribute="trailing" constant="108" id="ecP-6q-K1d"/>
+                            <constraint firstItem="L1k-1k-oSB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="iEM-Mf-9Of"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="L1k-1k-oSB" secondAttribute="bottom" constant="-1" id="ldu-cx-vgu"/>
+                            <constraint firstItem="rho-Xz-mXo" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="108" id="tkG-FD-yep"/>
+                            <constraint firstItem="OaM-ea-bfs" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="63" id="wMh-sc-N5L"/>
+                            <constraint firstItem="L1k-1k-oSB" firstAttribute="centerX" secondItem="OaM-ea-bfs" secondAttribute="centerX" id="xLx-Ei-nss"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="calculator" width="256" height="256"/>
+    </resources>
 </document>

@@ -7,8 +7,32 @@
 //
 
 #import <UIKit/UIKit.h>
+@class FormulasViewController;
 
-@interface ViewController : UIViewController
+typedef enum {MULTIPLY , DIVIDE , PLUS , MINUS} CalcOperations;
+@interface ViewController : UIViewController {
+    IBOutlet UITextField *disp;
+    NSString *storage;
+    CalcOperations operation;
+    }
+-(IBAction) b1;
+-(IBAction) b2;
+-(IBAction) b3;
+-(IBAction) b4;
+-(IBAction) b5;
+-(IBAction) b6;
+-(IBAction) b7;
+-(IBAction) b8;
+-(IBAction) b9;
+-(IBAction) b0;
+-(IBAction) equal;
+-(IBAction) multiply;
+-(IBAction) divide;
+-(IBAction) plus;
+-(IBAction) minus;
+-(IBAction) clear;
+
+
 
 
 @end

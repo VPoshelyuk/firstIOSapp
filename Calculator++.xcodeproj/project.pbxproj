@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E78F9C1B1DBB184C00D42DBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78F9C1A1DBB184C00D42DBB /* main.m */; };
 		E78F9C1E1DBB184C00D42DBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78F9C1D1DBB184C00D42DBB /* AppDelegate.m */; };
 		E78F9C211DBB184C00D42DBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78F9C201DBB184C00D42DBB /* ViewController.m */; };
 		E78F9C241DBB184C00D42DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78F9C221DBB184C00D42DBB /* Main.storyboard */; };
-		E78F9C271DBB184C00D42DBB /* Calculator__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E78F9C251DBB184C00D42DBB /* Calculator__.xcdatamodeld */; };
 		E78F9C291DBB184C00D42DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78F9C281DBB184C00D42DBB /* Assets.xcassets */; };
 		E78F9C2C1DBB184C00D42DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78F9C2A1DBB184C00D42DBB /* LaunchScreen.storyboard */; };
 		E78F9C371DBB184C00D42DBB /* Calculator__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78F9C361DBB184C00D42DBB /* Calculator__Tests.m */; };
 		E78F9C421DBB184C00D42DBB /* Calculator__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78F9C411DBB184C00D42DBB /* Calculator__UITests.m */; };
+		E7E734BE1DC08203000907CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E734BD1DC08203000907CE /* main.m */; };
+		E7E734C41DC08B1E000907CE /* FormulasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E734BF1DC0822D000907CE /* FormulasViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +37,11 @@
 
 /* Begin PBXFileReference section */
 		E78F9C161DBB184C00D42DBB /* Calculator++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E78F9C1A1DBB184C00D42DBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E78F9C1C1DBB184C00D42DBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E78F9C1D1DBB184C00D42DBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E78F9C1F1DBB184C00D42DBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E78F9C201DBB184C00D42DBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E78F9C231DBB184C00D42DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E78F9C261DBB184C00D42DBB /* Calculator__.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calculator__.xcdatamodel; sourceTree = "<group>"; };
 		E78F9C281DBB184C00D42DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E78F9C2B1DBB184C00D42DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E78F9C2D1DBB184C00D42DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +51,9 @@
 		E78F9C3D1DBB184C00D42DBB /* Calculator++UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator++UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78F9C411DBB184C00D42DBB /* Calculator__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator__UITests.m; sourceTree = "<group>"; };
 		E78F9C431DBB184C00D42DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E734BD1DC08203000907CE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7E734BF1DC0822D000907CE /* FormulasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormulasViewController.m; sourceTree = "<group>"; };
+		E7E734C51DC08B66000907CE /* FormulasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormulasViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,22 +108,15 @@
 				E78F9C1D1DBB184C00D42DBB /* AppDelegate.m */,
 				E78F9C1F1DBB184C00D42DBB /* ViewController.h */,
 				E78F9C201DBB184C00D42DBB /* ViewController.m */,
+				E7E734C51DC08B66000907CE /* FormulasViewController.h */,
+				E7E734BF1DC0822D000907CE /* FormulasViewController.m */,
 				E78F9C221DBB184C00D42DBB /* Main.storyboard */,
 				E78F9C281DBB184C00D42DBB /* Assets.xcassets */,
 				E78F9C2A1DBB184C00D42DBB /* LaunchScreen.storyboard */,
 				E78F9C2D1DBB184C00D42DBB /* Info.plist */,
-				E78F9C251DBB184C00D42DBB /* Calculator__.xcdatamodeld */,
-				E78F9C191DBB184C00D42DBB /* Supporting Files */,
+				E7E734BD1DC08203000907CE /* main.m */,
 			);
 			path = "Calculator++";
-			sourceTree = "<group>";
-		};
-		E78F9C191DBB184C00D42DBB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E78F9C1A1DBB184C00D42DBB /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E78F9C351DBB184C00D42DBB /* Calculator++Tests */ = {
@@ -277,9 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E78F9C211DBB184C00D42DBB /* ViewController.m in Sources */,
-				E78F9C271DBB184C00D42DBB /* Calculator__.xcdatamodeld in Sources */,
+				E7E734BE1DC08203000907CE /* main.m in Sources */,
 				E78F9C1E1DBB184C00D42DBB /* AppDelegate.m in Sources */,
-				E78F9C1B1DBB184C00D42DBB /* main.m in Sources */,
+				E7E734C41DC08B1E000907CE /* FormulasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +426,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ViachaslauPashaliuk.Calculator--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -443,6 +438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ViachaslauPashaliuk.Calculator--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -511,6 +507,7 @@
 				E78F9C481DBB184C00D42DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E78F9C491DBB184C00D42DBB /* Build configuration list for PBXNativeTarget "Calculator++Tests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +516,7 @@
 				E78F9C4B1DBB184C00D42DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E78F9C4C1DBB184C00D42DBB /* Build configuration list for PBXNativeTarget "Calculator++UITests" */ = {
 			isa = XCConfigurationList;
@@ -527,21 +525,9 @@
 				E78F9C4E1DBB184C00D42DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		E78F9C251DBB184C00D42DBB /* Calculator__.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E78F9C261DBB184C00D42DBB /* Calculator__.xcdatamodel */,
-			);
-			currentVersion = E78F9C261DBB184C00D42DBB /* Calculator__.xcdatamodel */;
-			path = Calculator__.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E78F9C0E1DBB184B00D42DBB /* Project object */;
 }
